@@ -171,7 +171,7 @@
                             </h2>
                             <p class="card-body">An images gallery, following the aesthetic of the character from the series "Arcane". CSS grid.</p>
                             <a href="#" class="button-card-Projects-1">Know more</a>
-                            <a href="https://getjinxed.herokuapp.com/https://getjinxed.herokuapp.com/" class="button-card-Projects-2" target="_BLANK">Visit!</a>
+                            <a href="https://getjinxed.herokuapp.com/" class="button-card-Projects-2" target="_BLANK">Visit!</a>
                         </div>
                     </div>
 
