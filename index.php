@@ -24,10 +24,9 @@
 
                     
                         <ul class ="ul-nav">
-                            <li class="li-nav" class="link-nav" id="projects-nav">Projects</li>
-                            <li class="li-nav"><a href="" class="link-nav">About me</a></li>
+                            <li class="li-nav"><a href="" class="link-nav" id="menuAboutMe">About me</a></li>
                             <li class="li-nav"><a href="" class="link-nav">Resume</a></li>
-                            <li class="li-nav"><a href="" class="link-nav">Contact</a></li>
+                            <li class="li-nav"><a href="https://linktr.ee/cristianbazan" target="_blank" class="link-nav">Contact</a></li>
                         </ul>
     
                         <div class="hamburger">
@@ -89,37 +88,38 @@
                 
                 </div>
                 <div class="presentation-3">
-                    <div class="lenguage">
-                        <h1 class="title-aboutMe origin">I'm from Argentina so my native lenguage is spanish.</h1>              
-                        <h1 class="subtitle-aboutMe origin">I also know how to communicate on <b>english</b> on a <b>b2/c1 level</b>.</h1> 
+                    <div class="text-container">
+                        <div class="lenguage">
+                            <h1 class="title-aboutMe origin">I'm from Argentina so my native lenguage is spanish.</h1>              
+                            <h1 class="subtitle-aboutMe origin">I also know how to communicate on <b>english</b> on a <b>b2/c1 level</b>.</h1> 
+                        </div>
+
+                        <div class="profession">
+                            <br>
+                            <img class="icon-handwriting" src="img/Icon-13.png" alt="writing">
+                            <h1 class="career introduction">A little introduction...</h1>
+                            <br>           
+                            <p class="paragraph-profession">You already know my name because it's all over the page but it's always the start of the storytelling. I'm Cristian Bazán, a not-too-young-but-young adult of 26 years old. My hobbies are reading, going to the gym and music. I play guitar and violin. I have a fat labrator.</p>
+                            <br>  
+                            <img class="" src="img/Icon-14.png" alt="books">
+                            <h1 class="career">On my current professional life, I'm finishing my career as a spanish grammar & literature professor.</h1>   
+                            <br>           
+                            <p class="paragraph-profession">I decided to make a 180° turn because I discovered that coding it's a creation form that involves everything that I'm interested in. Through code, you can bring to life whatever it's on your imagination combining the logicals aspects with your subjectivity, evolving in every steps that you make and improving your conceptions about it. It's for that reason that I'm on this boat since december of 2021, studying everyday to learn and improve my skills.</p>
+                            <br>
+                            <img class="" src="img/Icon-15.png" alt="books">
+                            <h1 class="career">I started to develop since december of 2021 but I've always being in the hardware/software world.</h1>  
+                            <br>
+                            <p class="paragraph-profession">Since I was little, I've being interested on the and their inner aspects. I started this journey by modyfing parameters in the sources codes of games without knowing what I was doing, learning from the ludic aspect by broken some things in the process (that, in my humble opinion, it's the real way of learning)</p>
+                            <br>
+                            <p class="paragraph-profession">On my early teens, I started to be interested on the hardware world. At 7 years old, I burn my first pc. At 11 years old I install my first graphic card and started to fixed it instead of burn it. And, at 17 years old, I became a hardware repair tech through a course that I made in my city, Rosario. So that's how I started to work with PC'S</p>
+                            <br>
+                            <p class="paragraph-profession">Right now, I'm inmerse on the web development, in the journey to learn how to deploy my own mobile apps. It's not the only form of coding that I'm interested in, I want to prove myself in the major areas of the software development world. So I'm open to the learning of anything that involves a line of code.</p>
+                            <br>
+                            <p class="paragraph-profession">I think that the first line of this text (the 180° turn...) is somehow capcious: the literature and the programming world are not far away; not only because all the programmers that i've met had a personal interest on various forms of art, but also because the code could be as aesthetic and clean as a great book. And that's the aim of my ambition in this eternal learning journey.</p>
+                        </div>
                     </div>
 
-                    <div class="profession">
-                        <br>
-                        <img class="icon-handwriting" src="img/Icon-13.png" alt="writing">
-                        <h1 class="career introduction">A little introduction...</h1>
-                        <br>           
-                        <p class="paragraph-profession">You already know my name because it's all over the page but it's always the start of the storytelling. I'm Cristian Bazán, a not-too-young-but-young adult of 26 years old. My hobbies are reading, going to the gym and music. I play guitar and violin. I have a fat labrator.</p>
-                        <br>  
-                        <img class="" src="img/Icon-14.png" alt="books">
-                        <h1 class="career">On my current professional life, I'm finishing my career as a spanish grammar & literature professor.</h1>   
-                        <br>           
-                        <p class="paragraph-profession">I decided to make a 180° turn because I discovered that coding it's a creation form that involves everything that I'm interested in. Through code, you can bring to life whatever it's on your imagination combining the logicals aspects with your subjectivity, evolving in every steps that you make and improving your conceptions about it. It's for that reason that I'm on this boat since december of 2021, studying everyday to learn and improve my skills.</p>
-                        <br>
-                        <img class="" src="img/Icon-15.png" alt="books">
-                        <h1 class="career">I started to develop since december of 2021 but I've always being in the hardware/software world.</h1>  
-                        <br>
-                        <p class="paragraph-profession">Since I was little, I've being interested on the and their inner aspects. I started this journey by modyfing parameters in the sources codes of games without knowing what I was doing, learning from the ludic aspect by broken some things in the process (that, in my humble opinion, it's the real way of learning)</p>
-                        <br>
-                        <p class="paragraph-profession">On my early teens, I started to be interested on the hardware world. At 7 years old, I burn my first pc. At 11 years old I install my first graphic card and started to fixed it instead of burn it. And, at 17 years old, I became a hardware repair tech through a course that I made in my city, Rosario. So that's how I started to work with PC'S</p>
-                        <br>
-                        <p class="paragraph-profession">Right now, I'm inmerse on the web development, in the journey to learn how to deploy my own mobile apps. It's not the only form of coding that I'm interested in, I want to prove myself in the major areas of the software development world. So I'm open to the learning of anything that involves a line of code.</p>
-                        <br>
-                        <p class="paragraph-profession">I think that the first line of this text (the 180° turn...) is somehow capcious: the literature and the programming world are not far away; not only because all the programmers that i've met had a personal interest on various forms of art, but also because the code could be as aesthetic and clean as a great book. And that's the aim of my ambition in this eternal learning journey.</p>
-                    </div>
                 </div>
-
-
             </div>
 
             <div class="modalProjects-container">

@@ -15,3 +15,8 @@ document.querySelectorAll(".link-nav").forEach(n=> n.
 
 
 
+
+alert("The projects linked to the 'Projects' page are on revision. I'm going to add them it breafly")
+const aboutMe = document.getElementById('menuAboutMe')
+
+
