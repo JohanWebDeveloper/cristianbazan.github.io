@@ -247,6 +247,7 @@ main {
     bottom: 0; 
     left: 0;
     right: 0;  
+    z-index: 2; 
     
 }
 
@@ -380,6 +381,10 @@ main {
 .title-aboutMe.origin::after{
     background: none; 
     animation: none;
+    justify-content: center;
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 
@@ -459,7 +464,7 @@ main {
 
 
 .subtitle-aboutMe{
-    color: hsl(0 0% 0% / 0.7);
+    color: #fff;
     font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
     font-weight: 400;   
     opacity: 0;
@@ -809,4 +814,45 @@ main {
 
 .modalProjects{
     
+}
+
+
+.modal-container{
+    display: none; 
+    opacity: 0; 
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.modal{
+   
+    width: 80%;
+    height: auto; 
+    position: absolute; 
+    top: 0;
+    margin: 4em;  
+    left: 50; 
+    background: hsla(0, 0%, 0%, 0.46);
+    opacity: 1; 
+    z-index: 1; 
+}
+
+
+.modalText{
+    display: flex; 
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 2em; 
+    font-style: bold; 
+    height: 250px; 
+}
+
+.modal-container.active{
+    display: flex; 
+    opacity: 1; 
 }
