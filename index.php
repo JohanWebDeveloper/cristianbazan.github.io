@@ -6818,7 +6818,6 @@
     </div>
 
 
-<script src="js/menu.js"></script>
 <script src="js/presentation.js"></script>
 </body>
 </html>
