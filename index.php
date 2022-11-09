@@ -24,7 +24,7 @@
 
                     
                         <ul class ="ul-nav">
-                            <li class="li-nav"><a href="" class="link-nav" id="menuAboutMe">About me</a></li>
+                            <li class="li-nav" id="menuAboutMe"> About me</li>
                             <li class="li-nav"><a href="" class="link-nav">Resume</a></li>
                             <li class="li-nav"><a href="https://linktr.ee/cristianbazan" target="_blank" class="link-nav">Contact</a></li>
                         </ul>
@@ -38,6 +38,14 @@
         </header>
         
         <main>
+            <div class="modal-container" id="modalAlert">
+                <div class="modal">
+                    <div class="modalText">
+                        Click on this handsome dude to know about me!
+                    </div>
+                </div>  
+            </div>
+
             <h2 class="subtitle" id="projects">PROJECTS</h2>
 
             <div class="aboutMeContainer">
@@ -129,21 +137,46 @@
                 </div>
 
                 <div class="modal-projects"></div>
-                    <div class="card card-1">
-                        <div class="card-content">
-                            <h2 class="card-title">
-                                Poetic Oracle
-                            </h2>
-                            <p class="card-body">A little game designed to take the literature and poetry to a ludic level. Sprites and animations made by me with Adobe Illustrator and CSS; code with HTML, CSS & JS.</p>
-                            <a href="#" class="button-card-Projects-1">Know more</a>
-                            <a href="#" class="button-card-Projects-2">Visit!</a>
-                        </div>
-                    </div>
 
-                    <div class="card card-2">
+                <div class="card card-1">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            GetJinxed!
+                        </h2>
+                        <p class="card-body">An images gallery, following the aesthetic of the character from the series "Arcane". CSS grid.</p>
+                        <a href="#" class="button-card-Projects-1">Know more</a>
+                        <a href="https://getjinxed.herokuapp.com/" class="button-card-Projects-2" target="_BLANK">Visit!</a>
+                    </div>
+                </div>  
+
+                <div class="card card-2">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            Lengupedia
+                        </h2>
+
+                        <p class="card-body">Site that helps the teaching of the spanish grammar and the hispanic literature.</p>
+                        <a href="#" class="button-card-Projects-1">Know more</a>
+                        <a href="http://lengupedia.herokuapp.com/frontend/screens/paronimos.php" class="button-card-Projects-2">Visit!</a>
+                    </div>
+                </div>
+
+                <div class="card card-3">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            e-commerce
+                        </h2>
+
+                        <p class="card-body">The cause of my headaches and nightmares. But, also, the project that teachs me alot about the rol of the full stack. Developed with Node.Js & MongoDB</p>
+                        <a href="#" class="button-card-Projects-1">Know more</a>
+                        <a href="#" class="button-card-Projects-2">Visit!</a>
+                    </div>
+                </div>
+
+                    <div class="card card-4">
                         <div class="card-content">
                             <h2 class="card-title">
-                                Borgeando
+                                Borgeando (Coming soon)
                             </h2>
 
                             <p class="card-body">Blog. Made from scratch utilizing Markdown with CRUD functionalities, using a combination of HTML, CSS & Node.Js. Dedicated to the argentinian author, Jorge Luis Borges. </p>
@@ -152,40 +185,20 @@
                         </div>
                     </div>
 
-                    <div class="card card-3">
-                        <div class="card-content">
-                            <h2 class="card-title">
-                                Lengupedia
-                            </h2>
-
-                            <p class="card-body">Site that helps the teaching of the spanish grammar and the hispanic literature.</p>
-                            <a href="#" class="button-card-Projects-1">Know more</a>
-                            <a href="#" class="button-card-Projects-2">Visit!</a>
-                        </div>
-                    </div>
-
-                    <div class="card card-4">
-                        <div class="card-content">
-                            <h2 class="card-title">
-                                GetJinxed!
-                            </h2>
-                            <p class="card-body">An images gallery, following the aesthetic of the character from the series "Arcane". CSS grid.</p>
-                            <a href="#" class="button-card-Projects-1">Know more</a>
-                            <a href="https://getjinxed.herokuapp.com/" class="button-card-Projects-2" target="_BLANK">Visit!</a>
-                        </div>
-                    </div>
+                    
 
                     <div class="card card-5">
                         <div class="card-content">
                             <h2 class="card-title">
-                                e-commerce
+                                Poetic Oracle
                             </h2>
-
-                            <p class="card-body">The cause of my headaches and nightmares. But, also, the project that teachs me alot about the rol of the full stack. Developed with Node.Js & MongoDB</p>
+                            <p class="card-body">A little game designed to take the literature and poetry to a ludic level. Sprites and animations made by me with Adobe Illustrator and CSS; code with HTML, CSS & JS.</p>
                             <a href="#" class="button-card-Projects-1">Know more</a>
-                            <a href="#" class="button-card-Projects-2">Visit!</a>
+                            <a href="http://lengupedia.herokuapp.com/frontend/screens/oraculo.php" class="button-card-Projects-2">Visit!</a>
                         </div>
                     </div>
+
+                    
                 </div>
             </div>
             
