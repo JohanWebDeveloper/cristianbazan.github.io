@@ -138,6 +138,18 @@
 
                 <div class="modal-projects"></div>
 
+                <div class="card card-6">
+                    <div class="card-content">
+                        <h2 class="card-title">
+                            Platform created to teach my class.
+                        </h2>
+                        <p class="card-body">As a professor, I implemented the coding world into the class of latinoamerican literature. You will find interactive tails with sections.</p>
+                        <a href="#" class="button-card-Projects-1">Know more</a>
+                        <a href="https://quintonaturalenguayliteratura.herokuapp.com/" class="button-card-Projects-2" target="_BLANK">Visit!</a>
+                    </div>
+                </div>  
+
+
                 <div class="card card-1">
                     <div class="card-content">
                         <h2 class="card-title">
