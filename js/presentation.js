@@ -47,6 +47,7 @@ const knowledge = document.querySelector('.knowledge-container')
 
 
 principalVector.addEventListener('click',()=>{
+    aboutMe.style.display = 'none'; 
     modalCont.classList.remove('active');
     projectsAlert.style.opacity = '1';
     aboutMeCont.style.opacity = '1';
