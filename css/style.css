@@ -32,10 +32,10 @@
 
 
 body{
-    background: url(https://i.postimg.cc/FFjWxTn0/110419-black-blurred-background-vector.jpg);
+    background: #fff;
     height: 100vh;
     color: #C5C878;
-}
+}   
 
 @keyframes appear{
     from{
